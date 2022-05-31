@@ -42,7 +42,7 @@ function loadLabeledImages() {
     labels.map(async label => { //loop through the labels and return a promise for each label
       const descriptions = []
       for (let i = 1; i <= 11; i++) { //loop through the images in each folder.Using  i =1 to 2 since i have used 2 images in each folder
-        const img = await faceapi.fetchImage(`https://raw.githubusercontent.com/kelcho-spense/face-detection-AI/main/labeled_images/${label}/${i}.jpg`)
+        const img = await faceapi.fetchImage(`./labeled_images/${label}/${i}.jpg`)
         const detections = await faceapi.detectSingleFace(img).withFaceLandmarks().withFaceDescriptor()
         descriptions.push(detections.descriptor)
       }     
