@@ -1,6 +1,7 @@
 # face-detection-AI
 I created a face Identifier Ai with [face-api.js](https://justadudewhohacks.github.io/face-api.js/docs/index.html)
-face-api.js => JavaScript API for face detection and face recognition in the browser implemented on top of the tensorflow.js core API 
+face-api.js => JavaScript API for face detection and face recognition in the browser implemented on top of the tensorflow.js core API </br>
+![Screenshot 2022-06-01 031910](https://user-images.githubusercontent.com/57180726/171305346-ad056798-c3b0-4668-8648-c88959f50daa.png)
 [tensorflow/tfjs-core](https://github.com/tensorflow/tfjs-core) </br>
 # face-detection-AI uses several models like
 - SSD Mobilenet V1 => For face detection, this project implements a SSD (Single Shot Multibox Detector) based on MobileNetV1. The neural net will compute the locations of each face in an image and will return the bounding boxes together with it's probability for each face
