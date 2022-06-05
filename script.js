@@ -37,7 +37,7 @@ async function start() {
 }
 
 function loadLabeledImages() {
-  const labels = ['daniel ngao', 'kevin comba', 'denis wachira']    //create an array of labels which match the folders of my test images 
+  const labels = ['daniel ngao', 'kevin comba', 'denis wachira','raphael']    //create an array of labels which match the folders of my test images 
   return Promise.all(
     labels.map(async label => { //loop through the labels and return a promise for each label
       const descriptions = []
